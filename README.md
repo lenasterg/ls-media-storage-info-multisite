@@ -54,6 +54,11 @@ Initial release
 
   Yes, the plugin is **localization-ready**. You can add translations by creating language files using tools like **Poedit** or by contributing translations through WordPress.org.
 
+## Screenshots
+1. The Storage space info into the 'Media library' admin page
+2. The Storage space info into the 'Upload media' window
+
+ 
 ## Upgrade Notice
 *1.0 = Initial version
 
