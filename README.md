@@ -1,18 +1,13 @@
 # LS Media Storage Info for Multisite
+![Storage space info into the 'Media library'](/screenshot-1.png)
 
-Contributors: lenasterg
-
-Tags: media, storage, multisite, dashboard, admin, upload, space
-
-Requires at least: 4.8 
-
-Tested up to: 6.7.1 
-
-Stable tag: 1.0 
-
-License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Text Domain: ls-media-storage-info-multisite Domain Path: /languages
+Contributors: lenasterg  
+Tags: media, storage, multisite, dashboard, admin, upload, space  
+Requires at least: 4.8  
+Tested up to: 6.7.1  
+Stable tag: 1.0  
+License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+Text Domain: ls-media-storage-info-multisite Domain Path: /languages  
 
 ## Description
 
@@ -56,7 +51,9 @@ Initial release
 
 ## Screenshots
 1. The Storage space info into the 'Media library' admin page
-2. The Storage space info into the 'Upload media' window
+   ![Storage space info into the 'Media library'](/screenshot-1.png)
+3. The Storage space info into the 'Upload media' window
+   ![Storage space info into the the 'Upload media' window](/screenshot-2.png)
 
  
 ## Upgrade Notice
