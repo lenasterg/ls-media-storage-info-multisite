@@ -3,6 +3,7 @@
 Plugin Name: LS Media Storage Info for Multisite
 Description: Displays used and available storage space in the Media Library for WordPress Multisite.
 Version: 1.0
+License: GPLv2 or later
 Author: lenasterg
 Text Domain: ls-media-storage-info-multisite
 */
