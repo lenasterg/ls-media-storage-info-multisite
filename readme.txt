@@ -1,4 +1,4 @@
-﻿=== LS Media Storage Info for Multisite ===
+=== LS Media Storage Info for Multisite ===
 Contributors: lenasterg
 Tags: media, storage, multisite, dashboard, space
 Requires at least: 4.8
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ls-media-storage-info-multisite
 Domain Path: /languages
 
-Displays the total and used storage space in the Media Library of each subsite in WordPress Multisite . 
+Displays the total and used storage space in the Media Library of each subsite in WordPress Multisite. 
 
 == Description ==
 The **LS Media Storage Info for Multisite** plugin displays the used and available storage space in the Media Library of each subsite in WordPress Multisite . 
