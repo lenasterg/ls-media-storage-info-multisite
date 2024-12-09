@@ -3,8 +3,8 @@
 Plugin Name: LS Media Storage Info for Multisite
 Description: Displays used and available storage space in the Media Library for WordPress Multisite.
 Version: 1.0
-License: GPLv2 or later
 Author: lenasterg
+License: GPLv2 or later
 Text Domain: ls-media-storage-info-multisite
 */
 
@@ -43,14 +43,14 @@ function display_storage_info_multisite() {
 
 	// Display the storage information with localization support
 
-	echo '<p><strong>' . __( 'Storage Space' ) . ':</strong> ';
+	echo '<p><strong>' . esc_html__( 'Storage Space' ) . ':</strong> ';
 
 	$quota_t = sprintf(
 				/* translators: %s: Number of megabytes. */
 		__( '%s MB' ),
 		number_format_i18n( $quota )
 	);
-	echo  $quota_t . ' / ';
+	echo  esc_html($quota_t . ' / ');
 	/* translators: 1: Number of megabytes, 2: Percentage. */
 	$text = sprintf(
 				/* translators: 1: Number of megabytes, 2: Percentage. */
@@ -58,7 +58,7 @@ function display_storage_info_multisite() {
 		number_format_i18n( $used, 2 ),
 		$percentused
 	);
-	echo $text;
+	echo esc_html($text);
 
 	echo '</p>';
 }
@@ -83,6 +83,4 @@ function show_storage_info_on_media_page( $hook_suffix ) {
 	}
 }
 add_action( 'admin_enqueue_scripts', 'show_storage_info_on_media_page' );
-
-
 
