@@ -1,6 +1,6 @@
 ﻿=== LS Media Storage Info for Multisite ===
 Contributors: lenasterg
-Tags: media, storage, multisite, dashboard, admin, upload, space
+Tags: media, storage, multisite, dashboard, upload, space
 Requires at least: 4.8
 Tested up to: 6.7.1
 Stable tag: 1.0
