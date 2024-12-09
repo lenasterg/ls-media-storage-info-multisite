@@ -1,0 +1,41 @@
+# Copyright (C) 2024 lenasterg
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LS Media Storage Info for Multisite 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ls-media-storage-info-multisite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-09T09:51:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: ls-media-storage-info-multisite\n"
+
+#. Plugin Name of the plugin
+msgid "LS Media Storage Info for Multisite"
+msgstr ""
+
+#. Description of the plugin
+msgid "Displays used and available storage space  in the Media Library of each subsite for WordPress Multisite."
+msgstr ""
+
+#. Author of the plugin
+msgid "lenasterg"
+msgstr ""
+
+#: ls-media-storage-info-multisite.php:46
+msgid "Storage Space"
+msgstr ""
+
+#. translators: %s: Number of megabytes.
+#: ls-media-storage-info-multisite.php:50
+msgid "%s MB"
+msgstr ""
+
+#. translators: 1: Number of megabytes, 2: Percentage.
+#: ls-media-storage-info-multisite.php:57
+msgid "%1$s MB (%2$s%%) Space Used"
+msgstr ""

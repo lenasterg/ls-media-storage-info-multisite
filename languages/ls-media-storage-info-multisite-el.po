@@ -1,0 +1,47 @@
+# Copyright (C) 2024 lenasterg
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LS Media Storage Info for Multisite 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ls-media-storage-"
+"info-multisite\n"
+"POT-Creation-Date: 2024-12-09T09:51:40+00:00\n"
+"PO-Revision-Date: 2024-12-09 11:53+0200\n"
+"Last-Translator: Lena Stergatou <aqua6617@yahoo.com>\n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: ls-media-storage-info-multisite\n"
+
+#. Plugin Name of the plugin
+msgid "LS Media Storage Info for Multisite"
+msgstr "LS Media Storage Info for Multisite"
+
+#. Description of the plugin
+msgid ""
+"Displays used and available storage space  in the Media Library of each "
+"subsite for WordPress Multisite."
+msgstr ""
+"Εμφανίζει τον χρησιμοποιούμενο και διαθέσιμο αποθηκευτικό χώρο στη "
+"Βιβλιοθήκη πολυμέσων κάθε ιστολογιού σε μία εγκατάσταση WordPress Multisite."
+
+#. Author of the plugin
+msgid "lenasterg"
+msgstr "lenasterg"
+
+#: ls-media-storage-info-multisite.php:46
+msgid "Storage Space"
+msgstr "Αποθηκευτικός χώρος"
+
+#. translators: %s: Number of megabytes.
+#: ls-media-storage-info-multisite.php:50
+msgid "%s MB"
+msgstr "%s MB"
+
+#. translators: 1: Number of megabytes, 2: Percentage.
+#: ls-media-storage-info-multisite.php:57
+msgid "%1$s MB (%2$s%%) Space Used"
+msgstr "%1$s MB (%2$s%%) χώρου χρησιμοποιούνται"
