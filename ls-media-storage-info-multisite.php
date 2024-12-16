@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @return void
  */
-function ls_display_notice_storage_info_multisite() {
+function ls_display_notice_storage_info_multisite(): void {
 
 	echo '<div class="notice notice-info is-dismissible">';
 	ls_display_storage_info_multisite();
@@ -29,12 +29,12 @@ function ls_display_notice_storage_info_multisite() {
  *
  * @return void
  */
-function ls_display_storage_info_multisite() {
+function ls_display_storage_info_multisite(): void {
 	// Get used and available space
 	$quota = get_space_allowed();
 	$used  = get_space_used();
 	if ( $used > $quota ) {
-		$percentused = '100';
+		$percentused = 100;
 	} else {
 		$percentused = ( $used / $quota ) * 100;
 	}
@@ -65,7 +65,7 @@ function ls_display_storage_info_multisite() {
 
 add_action( 'init', 'ls_media_storage_info_multisite_load_textdomain' );
 
-function ls_media_storage_info_multisite_load_textdomain() {
+function ls_media_storage_info_multisite_load_textdomain(): void {
 	load_plugin_textdomain( 'ls-media-storage-info-multisite', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 }
 
@@ -75,11 +75,11 @@ function ls_media_storage_info_multisite_load_textdomain() {
  * @param string $hook_suffix The page hook name
  * @return void
  */
-function ls_show_storage_info_on_media_page( $hook_suffix ) {
+function ls_show_storage_info_on_media_page( $hook_suffix ): void {
 	// Check if it's a multisite
 	if ( ! is_multisite() || ! current_user_can( 'upload_files' ) || get_site_option( 'upload_space_check_disabled' )
 	) {
-		return true;
+		return;
 	} else {
 		if ( ( 'media-new.php' === $hook_suffix ) || ( 'upload.php' === $hook_suffix ) ) { // Media Library page
 			add_action( 'admin_notices', 'ls_display_notice_storage_info_multisite' );
