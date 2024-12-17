@@ -1,0 +1,5 @@
+.gitignore
+composer.json
+composer.lock
+phpstan.neon
+vendor/

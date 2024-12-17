@@ -1,0 +1,39 @@
+{
+  "name": "lenasterg/ls-media-storage-info-multisite",
+  "description": "LS Media Storage Info for Multisite",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "~2.3.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.11",
+    "szepeviktor/phpstan-wordpress": "^1.3",
+    "phpstan/extension-installer": "^1.3"
+  },
+  "scripts": {
+    "phpstan": "@php -d memory_limit=4G vendor/bin/phpstan analyze"
+  },
+  "authors": [
+    {
+      "name": "Lena Stergatou",
+      "email": "lenasterg@chat.wordpress.org",
+      "homepage": "https://lenasterg.wordpress.com"
+    }
+  ],
+  "keywords": [
+    "media",
+    "storage",
+    "multisite",
+    "dashboard",
+    "space"
+  ],
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "phpstan/extension-installer": true
+    }
+  }
+}
+
